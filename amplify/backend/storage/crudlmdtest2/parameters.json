@@ -1,0 +1,7 @@
+{
+    "tableName": "crudlmdtest2",
+    "partitionKeyName": "idaa",
+    "partitionKeyType": "S",
+    "sortKeyName": "name",
+    "sortKeyType": "S"
+}

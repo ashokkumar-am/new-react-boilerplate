@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/donate",
+            "lambdaFunction": "newreactboilerplatea4c71592",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "ashokreactapi",
+    "apiName": "ashokreactapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "newreactboilerplatea4c71592"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-newreactboilerplate-dev-83504-authRole",
+        "unAuthRoleName": "amplify-newreactboilerplate-dev-83504-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "newreactboilerplatea4c71592",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
